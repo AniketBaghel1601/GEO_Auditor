@@ -174,7 +174,8 @@ Response
 ## Backend
 
 ```
-OPENAI_API_KEY=your_api_key
+GEMINI_API_KEY=your_api_key
+MODEL=gemini-3.5-flash
 ```
 
 ---
