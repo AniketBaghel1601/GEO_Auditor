@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Inter, Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.search-box {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.search-box input {
+  flex: 1;
+  max-width: 650px;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-box button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-box button:hover {
+  background: #1d4ed8;
+}
+
+.score-card {
+  margin-top: 40px;
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.score {
+  font-size: 48px;
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+.section-title {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.finding-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.pass {
+  background: #16a34a;
+}
+
+.warning {
+  background: #d97706;
+}
+
+.fail {
+  background: #dc2626;
+}
+
+.ai-card {
+  margin-top: 35px;
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.ai-card h3 {
+  margin-top: 20px;
+}
+
+.ai-card ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.ai-card li {
+  margin-bottom: 8px;
+}
