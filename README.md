@@ -39,7 +39,7 @@ Unlike traditional SEO tools that focus on search engine rankings, GEO Auditor e
 - FastAPI
 - BeautifulSoup
 - Requests
-- OpenAI API
+- Gemini API
 - Pydantic
 
 ---
@@ -91,7 +91,7 @@ GEO_Auditor/
                    │
      ┌─────────────┴──────────────┐
      ▼                            ▼
-Website Crawling            OpenAI API
+Website Crawling            Gemini API
      │                            │
      └─────────────┬──────────────┘
                    ▼
@@ -188,7 +188,7 @@ VITE_API_BASE_URL=http://localhost:8000
 Production
 
 ```
-VITE_API_BASE_URL=https://your-backend-domain.vercel.app
+VITE_API_BASE_URL=https://geo-auditorbackend.vercel.app/
 ```
 
 ---
@@ -248,7 +248,7 @@ Hosted on
 Environment Variable
 
 ```
-VITE_API_BASE_URL=https://your-backend-domain.vercel.app
+VITE_API_BASE_URL=https://geo-auditorbackend.vercel.app/
 ```
 
 ---
@@ -264,7 +264,7 @@ Allowed Origins
 ```python
 allow_origins = [
     "http://localhost:5173",
-    "https://your-frontend.vercel.app",
+    "https://geo-auditor-tan.vercel.app",
 ]
 ```
 
