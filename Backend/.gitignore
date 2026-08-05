@@ -10,7 +10,7 @@ __pycache__/
 *.egg-info/
 
 # Environment variables
-Backend/.env
+.env
 
 # VS Code
 .vscode/
