@@ -13,8 +13,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "geo-auditor-5xlk6zgqe-aniket-kumar-baghels-projects.vercel.app",
-        "geo-auditor-tan.vercel.app"
+        "https://geo-auditor-tan.vercel.app",
+        "https://geo-auditor-5xlk6zgqe-aniket-kumar-baghels-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
